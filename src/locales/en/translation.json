@@ -1,0 +1,83 @@
+{
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "certifications": "Certifications",
+    "skills": "Skills"
+  },
+  "hero": {
+    "title": "Hi, I'm Neamane",
+    "subtitle": "Full stack web developer passionate about technology",
+    "cta": "View projects"
+  },
+  "projects": {
+    "title": "💼 Projects",
+    "view": "View on GitHub",
+    "project1": {
+      "title": "Personal Portfolio",
+      "description": "A responsive website to showcase my projects and skills."
+    },
+    "project2": {
+      "title": "Task Manager",
+      "description": "Full stack app to create, edit, and delete daily tasks."
+    },
+    "project3": {
+      "title": "Online Store",
+      "description": "A simulated online shop with cart and authentication."
+    }
+  },
+  "about": {
+    "title": "👨‍💻 About Me",
+    "description": "I'm a web developer passionate about technology, with knowledge in both frontend and backend. I love building modern and efficient applications that provide real value."
+  },
+  "certifications": {
+    "title": "📜 Certifications",
+    "items": [
+      {
+        "date": "Jan 2024",
+        "name": "Web Hacking",
+        "provider": "OpenWebinars (Spain)"
+      },
+      {
+        "date": "Jan 2024",
+        "name": "Intro to Cybersecurity",
+        "provider": "OpenWebinars (Spain)"
+      },
+      {
+        "date": "Jan 2024",
+        "name": "Python Fundamentals",
+        "provider": "YouTube - SoyDalto"
+      },
+      {
+        "date": "2024",
+        "name": "The Complete JavaScript Course: From Zero to Expert",
+        "provider": "Udemy - Jonas Schmedtmann (68.5h)"
+      },
+      {
+        "date": "2024",
+        "name": "CSS: The Complete Guide (incl. Flexbox, Grid & Sass)",
+        "provider": "Udemy - Maximilian Schwarzmüller (23h)"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "soft": {
+      "title": "Soft skills",
+      "communication": "Strong communication",
+      "teamwork": "Teamwork",
+      "problemSolving": "Problem solving",
+      "fastLearner": "Fast learner"
+    },
+    "languages": {
+      "title": "Languages",
+      "english": "English (B2)",
+      "spanish": "Spanish (native)",
+      "arabic": "Arabic (native)"
+    },
+    "tech": {
+      "title": "Technologies"
+    }
+  }
+}

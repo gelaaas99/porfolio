@@ -1,0 +1,1 @@
+// Se puede modular el boton de cambio de idioma asi puedes hacerlo mas limpio tengo que verlo más a fondo 

@@ -1,0 +1,83 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "certifications": "Certificaciones",
+    "skills": "Skills"
+  },
+  "hero": {
+    "title": "Hola, soy Neamane",
+    "subtitle": "Desarrollador web full stack apasionado por la tecnología",
+    "cta": "Ver proyectos"
+  },
+  "projects": {
+    "title": "💼 Proyectos",
+    "view": "Ver en GitHub",
+    "project1": {
+      "title": "Portafolio Personal",
+      "description": "Una página web responsiva para mostrar mis proyectos y habilidades."
+    },
+    "project2": {
+      "title": "Gestor de Tareas",
+      "description": "Aplicación full stack para crear, editar y eliminar tareas diarias."
+    },
+    "project3": {
+      "title": "Tienda Online",
+      "description": "Simulación de una tienda online con carrito de compras y autenticación."
+    }
+  },
+  "about": {
+    "title": "👨‍💻 Sobre mí",
+    "description": "Soy un desarrollador web apasionado por la tecnología, con conocimientos en frontend y backend. Me encanta construir aplicaciones modernas y eficientes que aporten valor real."
+  },
+  "certifications": {
+    "title": "📜 Certificaciones",
+    "items": [
+      {
+        "date": "Ene 2024",
+        "name": "Hacking Web",
+        "provider": "OpenWebinars"
+      },
+      {
+        "date": "Ene 2024",
+        "name": "Introducción a la Ciberseguridad",
+        "provider": "OpenWebinars"
+      },
+      {
+        "date": "Ene 2024",
+        "name": "Fundamentos de Python",
+        "provider": "YouTube - SoyDalto"
+      },
+      {
+        "date": "2024",
+        "name": "The Complete JavaScript Course: From Zero to Expert",
+        "provider": "Udemy - Jonas Schmedtmann (68,5h)"
+      },
+      {
+        "date": "2024",
+        "name": "CSS: The Complete Guide (Flexbox, Grid & Sass)",
+        "provider": "Udemy - Maximilian Schwarzmüller (23h)"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "soft": {
+      "title": "Habilidades blandas",
+      "communication": "Buena comunicación",
+      "teamwork": "Trabajo en equipo",
+      "problemSolving": "Resolución de problemas",
+      "fastLearner": "Aprendo rápido"
+    },
+    "languages": {
+      "title": "Idiomas",
+      "english": "Inglés (B2)",
+      "spanish": "Español (nativo)",
+      "arabic": "Árabe (nativo)"
+    },
+    "tech": {
+      "title": "Tecnologías"
+    }
+  }
+}
