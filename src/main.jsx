@@ -4,8 +4,8 @@ import App from './App.jsx';
 
 // Importa estilos globales si tienes (Bootstrap, CSS personalizado, etc.)
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-//import './index.css'; // Si tienes un archivo de estilos propio
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './index.css'; // Si tienes un archivo de estilos propio
 
 // Importa configuración de i18n
 import './i18n';
