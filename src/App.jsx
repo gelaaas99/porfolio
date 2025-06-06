@@ -1,30 +1,3 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
-// import Home from './pages/Home.jsx';
-// import Navbar from './components/Navbar.jsx';
-
-// function App() {
-//   const [count, setCount] = useState(0)
-
-//   return (
-//     <div>
-//       <Navbar />
-//       <Home />
-//       {/* <Hero />
-//       <About />
-//       <Projects />
-//       <Contact /> */}
-//     </div>
-//   )
-// }
-
-// export default App;
-
-
-
-
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './i18n'; // Asegúrate de que i18n esté inicializado
