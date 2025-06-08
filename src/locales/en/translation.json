@@ -7,9 +7,11 @@
     "skills": "Skills"
   },
   "hero": {
-    "title": "Hi, I'm Neamane",
-    "subtitle": "Full stack web developer passionate about technology",
-    "cta": "View projects"
+    "role": "Full Stack Web Developer",
+    "intro": "Hi! I'm Neamane, passionate about building web apps.",
+    "cta": "View projects",
+    "cvEnglish": "Download CV in English",
+    "cvSpanish": "Download CV in Spanish"
   },
   "projects": {
     "title": "💼 Projects",
