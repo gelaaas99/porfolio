@@ -15,19 +15,20 @@ function Hero() {
                 </a> */}
                 <div className="d-flex justify-content-center gap-3 mt-4">
                     <a
-                        href="/cv-neamane-en.pdf"
+                        href="/public/CV_FullStack_Neamane.pdf"
                         download
                         className="btn btn-outline-primary"
                     >
                         📄 {t('hero.cvEnglish')}
                     </a>
-                    <a
+                    {/* 🟣CUANDO TENGA EL CV EN ESPAÑOL LO TENGO QUE HABILITAR🟣 */}
+                    {/* <a
                         href="/cv-neamane-es.pdf"
                         download
                         className="btn btn-outline-secondary"
                     >
                         📄 {t('hero.cvSpanish')}
-                    </a>
+                    </a> */}
                 </div>
                 <div className="container mt-5">
                     <div className="d-flex justify-content-center flex-wrap gap-4 mb-3">
@@ -37,6 +38,8 @@ function Hero() {
                         <i className="devicon-react-original colored fs-1" title="React"></i>
                     </div>
                     <div className="d-flex justify-content-center flex-wrap gap-4">
+                        <i className="devicon-php-plain colored fs-1" title="Node.js"></i>
+                        <i className="devicon-python-plain colored fs-1" title="Node.js"></i>
                         <i className="devicon-nodejs-plain colored fs-1" title="Node.js"></i>
                         <i className="devicon-firebase-plain colored fs-1" title="Firebase"></i>
                         <i className="devicon-git-plain colored fs-1" title="Git"></i>
