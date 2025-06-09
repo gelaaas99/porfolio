@@ -1,6 +1,7 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import './i18n'; // Asegúrate de que i18n esté inicializado
+import './i18n';
 
 // Componentes
 import Navbar from './components/Navbar';
@@ -15,9 +16,21 @@ import Skills from './sections/Skills';
 function App() {
   const { t } = useTranslation();
 
+  // 🌙 Estado global para dark mode
+  const [darkMode, setDarkMode] = useState(true);
+
+  useEffect(() => {
+    document.body.className = darkMode ? 'bg-dark text-light' : 'bg-light text-dark';
+  }, [darkMode]);
+
+  const toggleTheme = () => {
+    setDarkMode(prev => !prev);
+  };
+
   return (
     <>
-      <Navbar />
+      {/* ✅ Ahora pasas el estado y el setter a Navbar */}
+      <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
       <main>
         <section id="hero" className="py-5">
           <Hero />
@@ -28,7 +41,7 @@ function App() {
         </section>
 
         <section id="about" className="py-5">
-          <About />
+          <About darkMode={darkMode} />
         </section>
 
         <section id="certifications" className="py-5">
@@ -44,6 +57,7 @@ function App() {
 }
 
 export default App;
+
 
 
 

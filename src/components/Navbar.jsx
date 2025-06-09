@@ -111,23 +111,12 @@
 
 
 
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import miFoto from '../assets/mi-foto.jpg';
 
-function Navbar() {
+function Navbar({ darkMode, toggleTheme }) {
     const { t, i18n } = useTranslation();
-
-    // 🌙 Modo oscuro
-    const [darkMode, setDarkMode] = useState(true);
-
-    useEffect(() => {
-        document.body.className = darkMode ? 'bg-dark text-light' : 'bg-light text-dark';
-    }, [darkMode]);
-
-    const toggleTheme = () => {
-        setDarkMode(!darkMode);
-    };
 
     // 🔀 Cierra el menú al hacer clic o fuera de él
     useEffect(() => {
@@ -226,6 +215,7 @@ function Navbar() {
 }
 
 export default Navbar;
+
 
 
 

@@ -31,7 +31,13 @@
   },
   "about": {
     "title": "👨‍💻 Sobre mí",
-    "description": "Soy un desarrollador web apasionado por la tecnología, con conocimientos en frontend y backend. Me encanta construir aplicaciones modernas y eficientes que aporten valor real."
+    "description": "Soy un desarrollador web formado en el ciclo superior MBO de Aplicaciones y Desarrollo Web (Applicatie- en mediaontwikkelaar), con un enfoque práctico y orientado a resultados. Me apasiona la tecnología, disfruto aprendiendo nuevas herramientas y busco siempre mejorar mis habilidades. Actualmente estoy construyendo mi portafolio profesional y preparándome para oportunidades dentro del sector IT en los Países Bajos.",
+    "card1Title": "Resolutivo",
+    "card1Text": "Me gusta encontrar soluciones prácticas a los desafíos técnicos.",
+    "card2Title": "Apasionado por el código",
+    "card2Text": "Disfruto aprender y mejorar mis habilidades cada día.",
+    "card3Title": "Enfocado en resultados",
+    "card3Text": "Me comprometo con cada proyecto para entregar el mejor resultado posible."
   },
   "certifications": {
     "title": "📜 Certificaciones",

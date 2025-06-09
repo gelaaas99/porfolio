@@ -31,7 +31,13 @@
   },
   "about": {
     "title": "👨‍💻 About Me",
-    "description": "I'm a web developer passionate about technology, with knowledge in both frontend and backend. I love building modern and efficient applications that provide real value."
+    "description": "I'm a web developer trained in the Dutch MBO-level 4 program 'Application and Media Development' (Applicatie- en mediaontwikkelaar), with a hands-on and result-driven mindset. I'm passionate about technology, enjoy learning new tools, and I'm always looking to improve my skills. I'm currently building my professional portfolio and preparing for new opportunities in the Dutch IT sector.",
+    "card1Title": "Problem Solver",
+    "card1Text": "I enjoy finding practical solutions to technical challenges.",
+    "card2Title": "Code Enthusiast",
+    "card2Text": "I love learning and improving my skills every day.",
+    "card3Title": "Results Driven",
+    "card3Text": "I commit to each project to deliver the best possible outcome."
   },
   "certifications": {
     "title": "📜 Certifications",
