@@ -67,3 +67,37 @@ button:focus-visible {
 }
 
 /* MI ESTILO */
+
+/* ESTILO DE ANIMACION TARJETAS */
+/* .certification-card {
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.certification-card:hover {
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+  transform: translateY(-5px);
+} */
+
+.custom-card {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente adaptable */
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.75rem;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+body.bg-light .custom-card {
+  background-color: rgba(0, 0, 0, 0.05); /* Fondo suave en modo claro */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.custom-card:hover {
+  box-shadow: 0 0 18px rgba(255, 255, 255, 0.4);
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+

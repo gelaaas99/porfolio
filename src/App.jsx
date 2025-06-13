@@ -45,7 +45,7 @@ function App() {
         </section>
 
         <section id="certifications" className="py-5">
-          <Certifications />
+          <Certifications darkMode={darkMode} />
         </section>
 
         <section id="skills" className="py-5">
