@@ -11,7 +11,7 @@ function Certifications() {
                 <div className="row justify-content-center">
                     {certifications.map((cert, index) => (
                         <div key={index} className="col-12 col-md-6 mb-4">
-                            <div className="custom-card p-4">
+                            <div className="card-custom p-4">
                                 <div className="card-body">
                                     <h5 className="card-title mb-2">{cert.name}</h5>
                                     <p className="card-text mb-1">

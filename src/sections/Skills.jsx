@@ -76,16 +76,16 @@ const SkillsSection = () => {
                 <h5 className="text-light mb-3">{t('skills.soft.title')}</h5>
                 <div className="row g-3 mb-4">
                     <div className="col-6 col-md-3">
-                        <div className="custom-card p-2 text-center">{t('skills.soft.communication')}</div>
+                        <div className="card-custom p-2 text-center">{t('skills.soft.communication')}</div>
                     </div>
                     <div className="col-6 col-md-3">
-                        <div className="custom-card p-2 text-center">{t('skills.soft.teamwork')}</div>
+                        <div className="card-custom p-2 text-center">{t('skills.soft.teamwork')}</div>
                     </div>
                     <div className="col-6 col-md-3">
-                        <div className="custom-card p-2 text-center">{t('skills.soft.problemSolving')}</div>
+                        <div className="card-custom p-2 text-center">{t('skills.soft.problemSolving')}</div>
                     </div>
                     <div className="col-6 col-md-3">
-                        <div className="custom-card p-2 text-center">{t('skills.soft.fastLearner')}</div>
+                        <div className="card-custom p-2 text-center">{t('skills.soft.fastLearner')}</div>
                     </div>
                 </div>
 
@@ -136,7 +136,7 @@ const SkillsSection = () => {
                 <div className="row g-3">
                     {techSkills.map((tech, index) => (
                         <div key={index} className="col-6 col-md-3 col-lg-2">
-                            <div className="custom-card p-2 text-center">{tech}</div>
+                            <div className="card-custom p-2 text-center">{tech}</div>
                         </div>
                     ))}
                 </div>

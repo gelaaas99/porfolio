@@ -56,7 +56,7 @@ function About({ darkMode }) {
 
     // Define clases combinadas según darkMode
     // const cardClass = darkMode ? 'bg-light text-dark' : 'bg-dark text-light';
-    const customCardClass = `custom-card             `;  // ahi iria esto: ${cardClass}
+    const customCardClass = `card-custom             `;  // ahi iria esto: ${cardClass}
 
     return (
         <section id="about" className="py-5 text-center">
