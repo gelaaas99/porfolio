@@ -15,7 +15,7 @@ function Hero() {
                 </a> */}
                 <div className="d-flex justify-content-center gap-3 mt-4">
                     <a
-                        href="/public/CV_FullStack_Neamane.pdf"
+                        href="/porfolio/CV_FullStack_Neamane.pdf"
                         download
                         className="btn btn-outline-primary"
                     >
