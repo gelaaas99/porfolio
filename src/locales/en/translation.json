@@ -87,5 +87,10 @@
     "tech": {
       "title": "Technologies"
     }
+  },
+  "footer": {
+    "contactTitle": "Contact",
+    "socialTitle": "Socials",
+    "rights": "© 2025 Neamane Gelaas. All rights reserved."
   }
 }

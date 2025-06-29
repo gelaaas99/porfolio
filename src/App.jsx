@@ -5,6 +5,7 @@ import './i18n';
 
 // Componentes
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 // Secciones
 import Hero from './sections/Hero';
@@ -52,6 +53,7 @@ function App() {
           <Skills />
         </section>
       </main>
+      <Footer darkMode={darkMode} />
     </>
   );
 }

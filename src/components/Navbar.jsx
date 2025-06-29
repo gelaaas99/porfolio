@@ -159,7 +159,7 @@ function Navbar({ darkMode, toggleTheme }) {
     };
 
     return (
-        <nav className={`navbar navbar-expand-lg ${darkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'} fixed-top py-3`}>
+        <nav className={`navbar navbar-expand-lg ${darkMode ? 'navbar-dark' : 'navbar-light'} transparent-bg fixed-top py-3`}>
             <div className="container d-flex align-items-center justify-content-between">
                 <a className="navbar-brand d-flex align-items-center" href="#">
                     <img
