@@ -142,10 +142,55 @@ body.bg-dark .card-custom {
 
 /* para delimitar el footer y el navbar */
 .transparent-bg {
-  background-color: rgba(0, 0, 0, 0.7); /* oscuro translúcido */
+  background-color: rgba(0, 0, 0, 0.7);
+  /* oscuro translúcido */
   backdrop-filter: blur(8px);
 }
 
 body.bg-light .transparent-bg {
-  background-color: rgba(255, 255, 255, 0.7); /* claro translúcido */
+  background-color: rgba(255, 255, 255, 0.7);
+  /* claro translúcido */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* .project-image {
+  object-fit: cover;
+} */
+
+/* Tamaño del iframe dentro de las tarjetas de proyectos
+.project-iframe-wrapper {
+  position: relative;
+  width: 100%;      /* ocupa el ancho de la tarjeta *//*
+  max-width: 600px; /* 🔹 menos ancho dentro de la card *//*
+  height: 320px;    /* 🔹 más alto */
+  /* border-radius: 0.75rem;
+  overflow: hidden;
+  background-color: #000; *//*
+}
+
+/* Centrado en su contenedor flex (ya se hace desde la card-body) */
+/* .project-iframe-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+} */
+
+/* @media (min-width: 992px) {
+  .project-iframe-wrapper {
+    max-width: 460px; /* un poco más grande en escritorio *//*
+    height: 360px;    /* un pelín más alto en escritorio *//*
+  }
+} */ 

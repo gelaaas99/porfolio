@@ -16,17 +16,49 @@
   "projects": {
     "title": "💼 Proyectos",
     "view": "Ver en GitHub",
+    "techLabel": "Tecnologías utilizadas",
+    "techNames": {
+      "html": "HTML5",
+      "css": "CSS3",
+      "js": "JavaScript",
+      "react": "React",
+      "node": "Node.js",
+      "mongodb": "MongoDB",
+      "mysql": "MySQL",
+      "php": "PHP",
+      "python": "Python",
+      "wordpress": "WordPress",
+      "java": "Java",
+      "firebase": "Firebase",
+      "phyzer": "Phyzer",
+      "sqlserver": "SQL Server",
+      "springboot": "Spring Boot",
+      "vue": "Vue.js",
+      "vscode": "Visual Studio Code",
+      "typescript": "TypeScript",
+      "tailwind": "Tailwind CSS",
+      "express": "Express",
+      "bootstrap": "Bootstrap"
+    },
     "project1": {
-      "title": "Portafolio Personal",
-      "description": "Una página web responsiva para mostrar mis proyectos y habilidades."
+      "title": "MenuTacos – Carta digital para restaurante",
+      "description": "Carta digital responsive para un restaurante de comida rápida, desarrollada con HTML, JavaScript y Tailwind CSS. El usuario puede navegar por las diferentes categorías del menú mediante un header fijo y un sistema de secciones con scroll suave, optimizado para móviles para que los clientes puedan ver la carta y decidir su pedido en pocos toques.",
+      "tech": ["html", "css", "js", "tailwind"]
     },
     "project2": {
-      "title": "Gestor de Tareas",
-      "description": "Aplicación full stack para crear, editar y eliminar tareas diarias."
+      "title": "Transport PM",
+      "description": "Página corporativa desarrollada con WordPress para la empresa de transporte y mudanzas Transport PM. Presenta los servicios de transporte nacional en Países Bajos e internacional entre Países Bajos, España, Bélgica y Francia, además de secciones de rutas, preguntas frecuentes, testimonios de clientes y un formulario de contacto con acceso directo a WhatsApp para solicitar presupuestos. El diseño está preparado para móviles y pensado para convertir visitas en solicitudes de envío.",
+      "tech": ["wordpress", "php", "mysql", "css", "js"]
     },
     "project3": {
-      "title": "Tienda Online",
-      "description": "Simulación de una tienda online con carrito de compras y autenticación."
+      "title": "Portfolio personal",
+      "description": "Mi página web principal creada con React y Tailwind CSS. Es completamente responsive, tiene modo claro/oscuro y soporte multidioma, y muestra mis mejores proyectos con animaciones suaves y un diseño muy limpio.",
+      "tech": ["html", "css", "js", "react", "bootstrap"]
+    },
+    "project4": {
+      "title": "Coleman Ediciones",
+      "description": "Librería online para la editorial independiente Coleman Ediciones, desarrollada con WordPress. Permite gestionar catálogo de libros, fichas de autor, compra online y sección de noticias, con un diseño limpio y totalmente responsive.",
+      "tech": ["wordpress", "php", "mysql", "css", "js"]
     }
   },
   "about": {
@@ -89,8 +121,24 @@
     }
   },
   "footer": {
+    "brand": "Neamane Gelaas",
+    "role": "Desarrollador Full Stack",
+    "description": "Construyo productos web modernos: rendimiento, diseño limpio y buena DX.",
+    "cta": "Hablemos",
+    "ctaAria": "Ir a contacto",
+    "backToTop": "Arriba",
+    "backToTopAria": "Volver arriba",
+    "navTitle": "Navegación",
+    "nav": {
+      "projects": "Proyectos",
+      "skills": "Skills",
+      "about": "Sobre mí",
+      "contact": "Contacto"
+    },
     "contactTitle": "Contacto",
+    "location": "Rotterdam / Remoto",
     "socialTitle": "Redes",
-    "rights": "© 2025 Neamane Gelaas. Todos los derechos reservados."
+    "rights": "Todos los derechos reservados",
+    "madeWith": "Hecho con"
   }
 }

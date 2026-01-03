@@ -16,17 +16,44 @@
   "projects": {
     "title": "💼 Projects",
     "view": "View on GitHub",
+    "techLabel": "Technologies used",
+    "techNames": {
+      "html": "HTML5",
+      "css": "CSS3",
+      "js": "JavaScript",
+      "react": "React",
+      "node": "Node.js",
+      "mongodb": "MongoDB",
+      "mysql": "MySQL",
+      "php": "PHP",
+      "python": "Python",
+      "wordpress": "WordPress",
+      "java": "Java",
+      "firebase": "Firebase",
+      "phyzer": "Phyzer",
+      "sqlserver": "SQL Server",
+      "springboot": "Spring Boot",
+      "vue": "Vue.js",
+      "vscode": "Visual Studio Code",
+      "typescript": "TypeScript",
+      "tailwind": "Tailwind CSS",
+      "express": "Express",
+      "bootstrap": "Bootstrap"
+    },
     "project1": {
       "title": "Personal Portfolio",
-      "description": "A responsive website to showcase my projects and skills."
+      "description": "My main personal website built with React and Tailwind CSS. It’s fully responsive, supports light/dark mode and multiple languages, and showcases my best projects with smooth animations and a clean design.",
+      "tech": ["html", "css", "js", "react", "bootstrap"]
     },
     "project2": {
       "title": "Task Manager",
-      "description": "Full stack app to create, edit, and delete daily tasks."
+      "description": "A full stack task manager where users can create, edit, complete and delete their daily tasks. It includes filtering by status, persistent storage, and a simple, distraction-free interface focused on productivity.",
+      "tech": ["js", "react", "node", "express", "mongodb"]
     },
     "project3": {
-      "title": "Online Store",
-      "description": "A simulated online shop with cart and authentication."
+      "title": "Bookstore E-commerce",
+      "description": "Online store developed in WordPress with WooCommerce for selling books. It includes a shopping cart, secure payment gateway, and inventory management. The design is SEO-optimized and mobile-friendly.",
+      "tech": ["wordpress", "php", "mysql", "css", "js"]
     }
   },
   "about": {
@@ -89,8 +116,24 @@
     }
   },
   "footer": {
+    "brand": "Neamane Gelaas",
+    "role": "Full Stack Developer",
+    "description": "I build modern web products: performance, clean design, and great DX.",
+    "cta": "Let's talk",
+    "ctaAria": "Go to contact section",
+    "backToTop": "Top",
+    "backToTopAria": "Back to top",
+    "navTitle": "Navigation",
+    "nav": {
+      "projects": "Projects",
+      "skills": "Skills",
+      "about": "About",
+      "contact": "Contact"
+    },
     "contactTitle": "Contact",
-    "socialTitle": "Socials",
-    "rights": "© 2025 Neamane Gelaas. All rights reserved."
+    "location": "Rotterdam / Remote",
+    "socialTitle": "Social",
+    "rights": "All rights reserved",
+    "madeWith": "Made with"
   }
 }

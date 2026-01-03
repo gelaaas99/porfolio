@@ -15,20 +15,20 @@ function Hero() {
                 </a> */}
                 <div className="d-flex justify-content-center gap-3 mt-4">
                     <a
-                        href="/porfolio/CV_FullStack_Neamane.pdf"
+                        href="/porfolio/CV_en_NeamaneGelaas.pdf"
                         download
                         className="btn btn-outline-primary"
                     >
                         📄 {t('hero.cvEnglish')}
                     </a>
                     {/* 🟣CUANDO TENGA EL CV EN ESPAÑOL LO TENGO QUE HABILITAR🟣 */}
-                    {/* <a
-                        href="/cv-neamane-es.pdf"
+                    <a
+                        href="/porfolio/CV_es_NeamaneGelaas.pdf"
                         download
                         className="btn btn-outline-secondary"
                     >
                         📄 {t('hero.cvSpanish')}
-                    </a> */}
+                    </a>
                 </div>
                 <div className="container mt-5">
                     <div className="d-flex justify-content-center flex-wrap gap-4 mb-3">

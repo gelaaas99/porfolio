@@ -11,8 +11,12 @@
   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
 
-<!-- para las estrellas de los lenguajes  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <!-- para el estilo de los proyectos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <!-- para las estrellas de los lenguajes  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
 </head>
 
@@ -21,6 +25,16 @@
   <script type="module" src="/src/main.jsx"></script>
   <!-- Bootstrap JS con Popper.js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- para la animacion de los projectos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,   // duración de la animación en ms
+      once: true,      // si quieres que solo se anime la primera vez
+      easing: 'ease-out',
+    });
+  </script>
 
 </body>
 
