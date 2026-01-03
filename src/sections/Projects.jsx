@@ -43,7 +43,7 @@ const projectsConfig = [
     {
         key: "project2", // TransportPM
         image: transportpmImg,
-        live: "#",   // cambia cuando tengas la URL real
+        live: "https://transportpm.nl/",   // cambia cuando tengas la URL real
         // github: "#",
     },
     {
