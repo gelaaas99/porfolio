@@ -41,18 +41,23 @@
       "bootstrap": "Bootstrap"
     },
     "project1": {
-      "title": "Personal Portfolio",
-      "description": "My main personal website built with React and Tailwind CSS. It’s fully responsive, supports light/dark mode and multiple languages, and showcases my best projects with smooth animations and a clean design.",
-      "tech": ["html", "css", "js", "react", "bootstrap"]
+      "title": "MenuTacos – Digital menu for a restaurant",
+      "description": "Responsive digital menu for a fast-food restaurant, built with HTML, JavaScript and Tailwind CSS. Users can browse the different menu categories using a sticky header and smooth-scrolling sections, optimized for mobile so customers can view the menu and decide their order in just a few taps.",
+      "tech": ["html", "css", "js", "tailwind"]
     },
     "project2": {
-      "title": "Task Manager",
-      "description": "A full stack task manager where users can create, edit, complete and delete their daily tasks. It includes filtering by status, persistent storage, and a simple, distraction-free interface focused on productivity.",
-      "tech": ["js", "react", "node", "express", "mongodb"]
+      "title": "Transport PM",
+      "description": "Corporate website built with WordPress for the transport and moving company Transport PM. It showcases national transport services within the Netherlands and international routes between the Netherlands, Spain, Belgium and France, as well as route sections, FAQs, customer testimonials and a contact form with direct WhatsApp access to request quotes. The design is mobile-friendly and focused on turning visits into shipment requests.",
+      "tech": ["wordpress", "php", "mysql", "css", "js"]
     },
     "project3": {
-      "title": "Bookstore E-commerce",
-      "description": "Online store developed in WordPress with WooCommerce for selling books. It includes a shopping cart, secure payment gateway, and inventory management. The design is SEO-optimized and mobile-friendly.",
+      "title": "Personal portfolio",
+      "description": "My main personal website built with React and Tailwind CSS. It is fully responsive, has light/dark mode and multi-language support, and showcases my best projects with smooth animations and a very clean design.",
+      "tech": ["html", "css", "js", "react", "bootstrap"]
+    },
+    "project4": {
+      "title": "Coleman Ediciones",
+      "description": "Online bookstore for the independent publisher Coleman Ediciones, developed with WordPress. It allows managing the book catalogue, author pages, online purchases and a news section, all with a clean and fully responsive design.",
       "tech": ["wordpress", "php", "mysql", "css", "js"]
     }
   },
