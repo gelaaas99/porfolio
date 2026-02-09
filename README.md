@@ -25,6 +25,9 @@ Personal portfolio website where I showcase my projects and skills.
 Contact
 
 
-👉 Esta es suficiente.  
-Cuando la pegues y hagas **Commit changes**, dime: **“README lista”**.
+
+📌 Importante: fíjate que hay **dos bloques** de ```bash ... ``` y ambos están **cerrados** con ```.
+
+Pégalo en `README.md`, haz **Commit changes**, y al volver a la página del repo debería verse el título “Portfolio — Neamane (gelaaas99)”.
 ::contentReference[oaicite:0]{index=0}
+
