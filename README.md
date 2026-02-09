@@ -1,4 +1,4 @@
-# Portfolio — Rares (gelaaas99)
+# Portfolio — Neamane (gelaaas99)
 
 Personal portfolio website where I showcase my projects and skills.
 
