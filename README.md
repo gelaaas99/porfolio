@@ -15,17 +15,8 @@ https://gelaaas99.github.io/porfolio/
 ```bash
 npm install
 npm run dev
-Build
+## Build
 npm run build
 npm run preview
-Contact
+## Contact
 GitHub: https://github.com/gelaaas99
-
-
-**Cómo cambiarlo en GitHub:**
-Repo `porfolio` → `README.md` → lápiz ✏️ → pega → pestaña **Preview** para comprobar → **Commit changes**.
-
-Cuando lo tengas, pásame el link del repo (este):  
-`https://github.com/gelaaas99/porfolio`  
-y te digo si ya se ve limpio en portada.
-::contentReference[oaicite:0]{index=0}
