@@ -19,9 +19,10 @@ Personal portfolio website where I showcase my projects and skills.
 ## Run locally
 ```bash
 
-Contact
+## Live demo
+[View the live site](https://gelaaas99.github.io/porfolio/)
 
-GitHub: https://github.com/gelaaas99
+Contact
 
 
 👉 Esta es suficiente.  
