@@ -3,7 +3,7 @@
 Personal portfolio website where I showcase my projects and skills.
 
 ## Live demo
-- https://gelaaas99.github.io/porfolio/
+https://gelaaas99.github.io/porfolio/
 
 ## Tech stack
 - React
@@ -11,23 +11,21 @@ Personal portfolio website where I showcase my projects and skills.
 - JavaScript
 - Bootstrap
 
-## Features
-- Projects section with live links and GitHub repos
-- Responsive layout (mobile + desktop)
-- Fast load & simple navigation
-
 ## Run locally
 ```bash
-
-## Live demo
-[View the live site](https://gelaaas99.github.io/porfolio/)
-
+npm install
+npm run dev
+Build
+npm run build
+npm run preview
 Contact
+GitHub: https://github.com/gelaaas99
 
 
+**Cómo cambiarlo en GitHub:**
+Repo `porfolio` → `README.md` → lápiz ✏️ → pega → pestaña **Preview** para comprobar → **Commit changes**.
 
-📌 Importante: fíjate que hay **dos bloques** de ```bash ... ``` y ambos están **cerrados** con ```.
-
-Pégalo en `README.md`, haz **Commit changes**, y al volver a la página del repo debería verse el título “Portfolio — Neamane (gelaaas99)”.
+Cuando lo tengas, pásame el link del repo (este):  
+`https://github.com/gelaaas99/porfolio`  
+y te digo si ya se ve limpio en portada.
 ::contentReference[oaicite:0]{index=0}
-
