@@ -18,5 +18,12 @@ Personal portfolio website where I showcase my projects and skills.
 
 ## Run locally
 ```bash
-npm install
-npm run dev
+
+Contact
+
+GitHub: https://github.com/gelaaas99
+
+
+👉 Esta es suficiente.  
+Cuando la pegues y hagas **Commit changes**, dime: **“README lista”**.
+::contentReference[oaicite:0]{index=0}
