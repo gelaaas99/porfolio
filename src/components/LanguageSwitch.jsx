@@ -1,1 +1,25 @@
-// Se puede modular el boton de cambio de idioma asi puedes hacerlo mas limpio tengo que verlo más a fondo 
+import { useTranslation } from 'react-i18next';
+
+function LanguageSwitch({ darkMode }) {
+  const { i18n } = useTranslation();
+
+  const nextLanguage = i18n.language === 'es' ? 'en' : 'es';
+  const buttonClass = darkMode ? 'btn-outline-light' : 'btn-outline-dark';
+
+  const toggleLanguage = () => {
+    i18n.changeLanguage(nextLanguage);
+  };
+
+  return (
+    <button
+      type="button"
+      className={`btn btn-sm ${buttonClass}`}
+      onClick={toggleLanguage}
+      aria-label={`Switch language to ${nextLanguage.toUpperCase()}`}
+    >
+      {nextLanguage.toUpperCase()}
+    </button>
+  );
+}
+
+export default LanguageSwitch;

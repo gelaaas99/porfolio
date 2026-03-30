@@ -1,6 +1,4 @@
 
-
-
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import menutacosImg from "../assets/projects/menutacos.jpeg";
@@ -95,13 +93,13 @@ function Projects() {
                                         : "order-1 order-md-1" // móvil: 1º, escritorio: izquierda
                                     }`}
                             >
-                                <article className="card card-custom flex-fill h-100">
+                                <article className="card card-custom project-text-card flex-fill h-100">
                                     <div className="card-body d-flex flex-column gap-3">
                                         <div>
                                             <h3 className="h4 fw-bold mb-2">
                                                 {t(`projects.${proj.key}.title`)}
                                             </h3>
-                                            <p className="mb-0">
+                                            <p className="mb-0 project-summary">
                                                 {t(`projects.${proj.key}.description`)}
                                             </p>
                                         </div>

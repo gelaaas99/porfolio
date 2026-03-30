@@ -4,12 +4,18 @@
     "projects": "Projects",
     "about": "About",
     "certifications": "Certifications",
-    "skills": "Skills"
+    "skills": "Skills",
+    "lightMode": "Switch to light mode",
+    "darkMode": "Switch to dark mode",
+    "lightModeShort": "Light",
+    "darkModeShort": "Dark"
   },
   "hero": {
+    "kicker": "Available for new projects",
+    "greeting": "Hi, I'm",
     "role": "Full Stack Web Developer",
-    "intro": "Hi! I'm Neamane, passionate about building web apps.",
-    "cta": "View projects",
+    "intro": "Hi, I'm Neamane. I build modern web experiences that feel clear, polished and results-driven.",
+    "photoAlt": "Photo of Neamane Gelaas",
     "cvEnglish": "Download CV in English",
     "cvSpanish": "Download CV in Spanish"
   },
@@ -41,23 +47,23 @@
       "bootstrap": "Bootstrap"
     },
     "project1": {
-      "title": "MenuTacos – Digital menu for a restaurant",
-      "description": "Responsive digital menu for a fast-food restaurant, built with HTML, JavaScript and Tailwind CSS. Users can browse the different menu categories using a sticky header and smooth-scrolling sections, optimized for mobile so customers can view the menu and decide their order in just a few taps.",
+      "title": "MenuTacos - Digital menu for a restaurant",
+      "description": "Responsive digital menu for a fast-food restaurant, built with HTML, JavaScript and Tailwind CSS. It lets users browse categories with smooth scrolling and a mobile-first structure designed to help customers check the menu and decide quickly.",
       "tech": ["html", "css", "js", "tailwind"]
     },
     "project2": {
       "title": "Transport PM",
-      "description": "Corporate website built with WordPress for the transport and moving company Transport PM. It showcases national transport services within the Netherlands and international routes between the Netherlands, Spain, Belgium and France, as well as route sections, FAQs, customer testimonials and a contact form with direct WhatsApp access to request quotes. The design is mobile-friendly and focused on turning visits into shipment requests.",
+      "description": "Corporate website built with WordPress for a transport and moving company. It showcases national and international services, routes, FAQs, testimonials and direct WhatsApp contact, with a responsive design focused on turning visits into quote requests.",
       "tech": ["wordpress", "php", "mysql", "css", "js"]
     },
     "project3": {
       "title": "Personal portfolio",
-      "description": "My main personal website built with React and Tailwind CSS. It is fully responsive, has light/dark mode and multi-language support, and showcases my best projects with smooth animations and a very clean design.",
+      "description": "My main personal website built with React and Bootstrap. It is fully responsive, has light/dark mode and multi-language support, and showcases my best projects with smoother hierarchy and a clearer recruiter-friendly layout.",
       "tech": ["html", "css", "js", "react", "bootstrap"]
     },
     "project4": {
       "title": "Coleman Ediciones",
-      "description": "Online bookstore for the independent publisher Coleman Ediciones, developed with WordPress. It allows managing the book catalogue, author pages, online purchases and a news section, all with a clean and fully responsive design.",
+      "description": "Online bookstore for the independent publisher Coleman Ediciones, developed with WordPress. It includes a book catalogue, author pages, online purchasing and a news section, all within a clean and fully responsive design.",
       "tech": ["wordpress", "php", "mysql", "css", "js"]
     }
   },
@@ -125,7 +131,7 @@
     "role": "Full Stack Developer",
     "description": "I build modern web products: performance, clean design, and great DX.",
     "cta": "Let's talk",
-    "ctaAria": "Go to contact section",
+    "ctaAria": "Open WhatsApp conversation",
     "backToTop": "Top",
     "backToTopAria": "Back to top",
     "navTitle": "Navigation",
@@ -133,7 +139,7 @@
       "projects": "Projects",
       "skills": "Skills",
       "about": "About",
-      "contact": "Contact"
+      "top": "Top"
     },
     "contactTitle": "Contact",
     "location": "Rotterdam / Remote",

@@ -1,98 +1,101 @@
-import React from 'react';
-import { useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useEffect, useRef, useState } from 'react';
 import './i18n';
 
-// Componentes
-import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-
-// Secciones
+import Navbar from './components/Navbar';
+import About from './sections/About';
+import Certifications from './sections/Certifications';
 import Hero from './sections/Hero';
 import Projects from './sections/Projects';
-import About from './sections/About';
-import Certifications from './sections/Certifications.jsx';
 import Skills from './sections/Skills';
 
 function App() {
-  const { t } = useTranslation();
-
-  // 🌙 Estado global para dark mode
   const [darkMode, setDarkMode] = useState(true);
+  const vantaRef = useRef(null);
+  const vantaEffect = useRef(null);
 
   useEffect(() => {
     document.body.className = darkMode ? 'bg-dark text-light' : 'bg-light text-dark';
   }, [darkMode]);
 
+  useEffect(() => {
+    if (vantaEffect.current) {
+      vantaEffect.current.destroy();
+      vantaEffect.current = null;
+    }
+
+    const vantaConfig = darkMode
+      ? {
+          highlightColor: 0x2a596e,
+          midtoneColor: 0x373846,
+          lowlightColor: 0x576ba4,
+          baseColor: 0x0a0a18,
+          zoom: 0.9,
+          speed: 1.5,
+        }
+      : {
+          highlightColor: 0xc3d1f5,
+          midtoneColor: 0x8fb3fa,
+          lowlightColor: 0x4ca0fa,
+          baseColor: 0xffffff,
+          zoom: 0.9,
+          speed: 1.5,
+        };
+
+    const initVanta = () => {
+      if (!vantaEffect.current && window.VANTA && vantaRef.current) {
+        vantaEffect.current = window.VANTA.FOG({
+          el: vantaRef.current,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          ...vantaConfig,
+        });
+      }
+    };
+
+    initVanta();
+
+    const retryId = window.setInterval(() => {
+      if (window.VANTA && !vantaEffect.current) {
+        initVanta();
+      }
+      if (vantaEffect.current) {
+        window.clearInterval(retryId);
+      }
+    }, 250);
+
+    return () => {
+      window.clearInterval(retryId);
+      if (vantaEffect.current) {
+        vantaEffect.current.destroy();
+        vantaEffect.current = null;
+      }
+    };
+  }, [darkMode]);
+
   const toggleTheme = () => {
-    setDarkMode(prev => !prev);
+    setDarkMode((prev) => !prev);
   };
 
   return (
     <>
-      {/* ✅ Ahora pasas el estado y el setter a Navbar */}
-      <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
-      <main>
-        <section id="hero" className="py-5">
-          <Hero />
-        </section>
-
-        <section id="projects" className="py-5">
+      <div ref={vantaRef} className="vanta-background" />
+      <div className="app-shell">
+        <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
+        <main>
+          <Hero darkMode={darkMode} />
           <Projects />
-        </section>
-
-        <section id="about" className="py-5">
-          <About darkMode={darkMode} />
-        </section>
-
-        <section id="certifications" className="py-5">
-          <Certifications darkMode={darkMode} />
-        </section>
-
-        <section id="skills" className="py-5">
+          <About />
+          <Certifications />
           <Skills />
-        </section>
-      </main>
-      <Footer darkMode={darkMode} />
+        </main>
+        <Footer darkMode={darkMode} />
+      </div>
     </>
   );
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/* <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </> */}

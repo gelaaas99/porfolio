@@ -1,54 +1,85 @@
-// este es el de que funciona desde un principio 
-
+import miFoto from '../assets/mi-foto.jpg';
 import { useTranslation } from 'react-i18next';
 
-function Hero() {
-    const { t } = useTranslation();
+function Hero({ darkMode }) {
+  const { t } = useTranslation();
 
-    return (
-        <section id="hero" className="py-5 text-center d-flex align-items-center justify-content-center" style={{ minHeight: '100vh' }}>
-            <div className="container">
-                <h1 className="display-4 fw-bold">{t('hero.role')}</h1>
-                <p className="lead">{t('hero.intro')}</p>
-                {/* <a href="#projects" className="btn btn-primary mt-3">
-                    {t('hero.cta')}
-                </a> */}
-                <div className="d-flex justify-content-center gap-3 mt-4">
-                    <a
+  return (
+    <section id="hero" className="hero-section d-flex align-items-center">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-12 col-xl-10">
+            <div className="hero-panel">
+              <div className="row align-items-center g-5">
+                <div className="col-12 col-lg-7">
+                  <div className="hero-copy-wrap text-center text-lg-start">
+                    <span className="hero-kicker">{t('hero.kicker')}</span>
+                    <div className="hero-photo-shell hero-photo-mobile">
+                      <div className="hero-photo-ring">
+                        <img
+                          src={miFoto}
+                          alt={t('hero.photoAlt')}
+                          className="hero-photo"
+                        />
+                      </div>
+                    </div>
+                    <div className="hero-intro-label mt-4">{t('hero.greeting')}</div>
+                    <h1 className="hero-name mt-2 mb-2">Neamane Gelaas</h1>
+                    <h2 className="hero-role mb-3">{t('hero.role')}</h2>
+                    <p className="lead hero-copy mb-0">{t('hero.intro')}</p>
+
+                    <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 mt-4">
+                      <a
                         href="/porfolio/CV_en_NeamaneGelaas.pdf"
                         download
-                        className="btn btn-outline-primary"
-                    >
-                        📄 {t('hero.cvEnglish')}
-                    </a>
-                    {/* 🟣CUANDO TENGA EL CV EN ESPAÑOL LO TENGO QUE HABILITAR🟣 */}
-                    <a
+                        className="btn btn-outline-primary hero-download-btn"
+                      >
+                        {t('hero.cvEnglish')}
+                      </a>
+                      <a
                         href="/porfolio/CV_es_NeamaneGelaas.pdf"
                         download
-                        className="btn btn-outline-secondary"
-                    >
-                        📄 {t('hero.cvSpanish')}
-                    </a>
-                </div>
-                <div className="container mt-5">
-                    <div className="d-flex justify-content-center flex-wrap gap-4 mb-3">
-                        <i className="devicon-html5-plain colored fs-1" title="HTML5"></i>
-                        <i className="devicon-css3-plain colored fs-1" title="CSS3"></i>
-                        <i className="devicon-javascript-plain colored fs-1" title="JavaScript"></i>
-                        <i className="devicon-react-original colored fs-1" title="React"></i>
+                        className={`btn ${
+                          darkMode ? 'btn-outline-light' : 'btn-outline-secondary'
+                        } hero-download-btn`}
+                      >
+                        {t('hero.cvSpanish')}
+                      </a>
                     </div>
-                    <div className="d-flex justify-content-center flex-wrap gap-4">
-                        <i className="devicon-php-plain colored fs-1" title="Node.js"></i>
-                        <i className="devicon-python-plain colored fs-1" title="Node.js"></i>
-                        <i className="devicon-nodejs-plain colored fs-1" title="Node.js"></i>
-                        <i className="devicon-firebase-plain colored fs-1" title="Firebase"></i>
-                        <i className="devicon-git-plain colored fs-1" title="Git"></i>
-                        <i className="devicon-mysql-plain colored fs-1" title="MySQL"></i>
-                    </div>
+                  </div>
                 </div>
+
+                <div className="col-12 col-lg-5">
+                  <div className="hero-photo-shell hero-photo-desktop">
+                    <div className="hero-photo-ring">
+                      <img
+                        src={miFoto}
+                        alt={t('hero.photoAlt')}
+                        className="hero-photo"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="hero-tech-cloud mt-5">
+                <i className="devicon-html5-plain colored" title="HTML5" />
+                <i className="devicon-css3-plain colored" title="CSS3" />
+                <i className="devicon-javascript-plain colored" title="JavaScript" />
+                <i className="devicon-react-original colored" title="React" />
+                <i className="devicon-nodejs-plain colored" title="Node.js" />
+                <i className="devicon-wordpress-plain colored" title="WordPress" />
+                <i className="devicon-firebase-plain colored" title="Firebase" />
+                <i className="devicon-git-plain colored" title="Git" />
+                <i className="devicon-mysql-plain colored" title="MySQL" />
+                <i className="devicon-python-plain colored" title="Python" />
+              </div>
             </div>
-        </section>
-    );
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Hero;
