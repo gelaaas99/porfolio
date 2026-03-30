@@ -38,7 +38,7 @@ function Footer({ darkMode }) {
               <div className="d-flex flex-wrap gap-2">
                 <a
                   href="https://wa.me/34632936088"
-                  className={`btn btn-sm footer-action ${btnClass}`}
+                  className={`btn btn-sm footer-action d-inline-flex align-items-center gap-2 ${btnClass}`}
                   aria-label={t('footer.ctaAria')}
                 >
                   <i className="fa-brands fa-whatsapp" aria-hidden="true" /> {t('footer.cta')}
@@ -47,7 +47,7 @@ function Footer({ darkMode }) {
                 <button
                   type="button"
                   onClick={scrollTop}
-                  className={`btn btn-sm footer-action ${btnClass}`}
+                  className={`btn btn-sm footer-action d-inline-flex align-items-center gap-2 ${btnClass}`}
                   aria-label={t('footer.backToTopAria')}
                 >
                   <span aria-hidden>↑</span> {t('footer.backToTop')}
