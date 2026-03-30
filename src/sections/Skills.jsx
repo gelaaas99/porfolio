@@ -17,7 +17,7 @@ const techSkills = [
   'SQL Server',
   'Spring Boot',
   'Vue.js',
-  'Visual Studio Code',
+  'VS Code',
   'TypeScript',
 ];
 
@@ -47,7 +47,7 @@ function SkillsSection() {
   return (
     <section id="skills" className="py-5">
       <div className="container">
-        <h2 className="text-center mb-4">{t('skills.title')}</h2>
+        <h2 className="section-title text-center mb-4">{t('skills.title')}</h2>
 
         <div className="section-shell">
           <h5 className="section-subtitle">{t('skills.soft.title')}</h5>

@@ -7,7 +7,7 @@ function Certifications() {
     return (
         <section id="certifications" className="py-5">
             <div className="container">
-                <h2 className="text-center mb-4">{t('certifications.title')}</h2>
+                <h2 className="section-title text-center mb-4">{t('certifications.title')}</h2>
                 <div className="row justify-content-center">
                     {certifications.map((cert, index) => (
                         <div key={index} className="col-12 col-md-6 mb-4">

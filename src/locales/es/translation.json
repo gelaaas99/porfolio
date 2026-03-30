@@ -14,13 +14,13 @@
     "kicker": "Disponible para nuevos proyectos",
     "greeting": "Hola, soy",
     "role": "Desarrollador Web Full Stack",
-    "intro": "Hola, soy Neamane. Construyo experiencias web modernas, claras y orientadas a resultados.",
+    "intro": "Construyo experiencias web modernas, claras y orientadas a resultados.",
     "photoAlt": "Foto de Neamane Gelaas",
     "cvEnglish": "Descargar CV en inglés",
     "cvSpanish": "Descargar CV en español"
   },
   "projects": {
-    "title": "💼 Proyectos",
+    "title": "Proyectos",
     "view": "Ver en GitHub",
     "techLabel": "Tecnologías utilizadas",
     "techNames": {
@@ -68,7 +68,7 @@
     }
   },
   "about": {
-    "title": "👨‍💻 Sobre mí",
+    "title": "Sobre mí",
     "description": "Soy un desarrollador web formado en el ciclo superior MBO de Aplicaciones y Desarrollo Web (Applicatie- en mediaontwikkelaar), con un enfoque práctico y orientado a resultados. Me apasiona la tecnología, disfruto aprendiendo nuevas herramientas y busco siempre mejorar mis habilidades. Actualmente estoy construyendo mi portafolio profesional y preparándome para oportunidades dentro del sector IT en los Países Bajos.",
     "card1Title": "Resolutivo",
     "card1Text": "Me gusta encontrar soluciones prácticas a los desafíos técnicos.",
@@ -78,7 +78,7 @@
     "card3Text": "Me comprometo con cada proyecto para entregar el mejor resultado posible."
   },
   "certifications": {
-    "title": "📜 Certificaciones",
+    "title": "Certificaciones",
     "items": [
       {
         "date": "Ene 2024",
@@ -110,7 +110,7 @@
   "skills": {
     "title": "Habilidades",
     "soft": {
-      "title": "Habilidades blandas",
+      "title": "Soft skills",
       "communication": "Buena comunicación",
       "teamwork": "Trabajo en equipo",
       "problemSolving": "Resolución de problemas",
@@ -132,6 +132,8 @@
     "description": "Construyo productos web modernos: rendimiento, diseño limpio y buena DX.",
     "cta": "Hablemos",
     "ctaAria": "Abrir conversación por WhatsApp",
+    "linkedinAria": "Abrir perfil de LinkedIn",
+    "githubAria": "Abrir perfil de GitHub",
     "backToTop": "Arriba",
     "backToTopAria": "Volver arriba",
     "navTitle": "Navegación",
@@ -145,6 +147,6 @@
     "location": "Rotterdam / Remoto",
     "socialTitle": "Redes",
     "rights": "Todos los derechos reservados",
-    "madeWith": "Hecho con"
+    "madeWith": "Diseñado y desarrollado con React"
   }
 }

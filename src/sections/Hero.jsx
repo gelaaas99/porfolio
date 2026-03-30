@@ -13,7 +13,16 @@ function Hero({ darkMode }) {
               <div className="row align-items-center g-5">
                 <div className="col-12 col-lg-7">
                   <div className="hero-copy-wrap text-center text-lg-start">
-                    <span className="hero-kicker">{t('hero.kicker')}</span>
+                    <div className="hero-kicker-row d-inline-flex align-items-center gap-2 flex-wrap justify-content-center justify-content-lg-start">
+                      <span className="hero-kicker">{t('hero.kicker')}</span>
+                      <a
+                        href="https://wa.me/34632936088"
+                        className="hero-whatsapp-link"
+                        aria-label={t('footer.ctaAria')}
+                      >
+                        <i className="fa-brands fa-whatsapp" aria-hidden="true" />
+                      </a>
+                    </div>
                     <div className="hero-photo-shell hero-photo-mobile">
                       <div className="hero-photo-ring">
                         <img
@@ -68,10 +77,13 @@ function Hero({ darkMode }) {
                 <i className="devicon-javascript-plain colored" title="JavaScript" />
                 <i className="devicon-react-original colored" title="React" />
                 <i className="devicon-nodejs-plain colored" title="Node.js" />
-                <i className="devicon-wordpress-plain colored" title="WordPress" />
+                <i
+                  className="devicon-wordpress-plain tech-icon-wordpress"
+                  title="WordPress"
+                />
                 <i className="devicon-firebase-plain colored" title="Firebase" />
                 <i className="devicon-git-plain colored" title="Git" />
-                <i className="devicon-mysql-plain colored" title="MySQL" />
+                <i className="devicon-mysql-plain tech-icon-mysql" title="MySQL" />
                 <i className="devicon-python-plain colored" title="Python" />
               </div>
             </div>

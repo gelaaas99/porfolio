@@ -15,10 +15,10 @@ const techIconMap = {
     node: "devicon-nodejs-plain colored fs-1",
     express: "devicon-express-original fs-1",
     mongodb: "devicon-mongodb-plain colored fs-1",
-    mysql: "devicon-mysql-plain colored fs-1",
+    mysql: "devicon-mysql-plain tech-icon-mysql fs-1",
     php: "devicon-php-plain colored fs-1",
     python: "devicon-python-plain colored fs-1",
-    wordpress: "devicon-wordpress-plain colored fs-1",
+    wordpress: "devicon-wordpress-plain tech-icon-wordpress fs-1",
     java: "devicon-java-plain colored fs-1",
     firebase: "devicon-firebase-plain colored fs-1",
     phyzer: "devicon-plain fs-1",
@@ -75,7 +75,7 @@ function Projects() {
     return (
         <section id="projects" className="py-5">
             <div className="container">
-                <h2 className="text-center mb-5">{t("projects.title")}</h2>
+                <h2 className="section-title text-center mb-5">{t("projects.title")}</h2>
 
                 <div className="d-flex flex-column gap-5">
                     {projectsConfig.map((proj, index) => {

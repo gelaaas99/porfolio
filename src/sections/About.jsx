@@ -6,7 +6,7 @@ function About() {
   return (
     <section id="about" className="py-5 text-center">
       <div className="container">
-        <h2 className="fw-bold mb-4">{t('about.title')}</h2>
+        <h2 className="section-title fw-bold mb-4">{t('about.title')}</h2>
         <p className="lead">{t('about.description')}</p>
 
         <div className="row mt-4">

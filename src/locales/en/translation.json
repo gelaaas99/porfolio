@@ -14,13 +14,13 @@
     "kicker": "Available for new projects",
     "greeting": "Hi, I'm",
     "role": "Full Stack Web Developer",
-    "intro": "Hi, I'm Neamane. I build modern web experiences that feel clear, polished and results-driven.",
+    "intro": "I build modern web experiences that feel clear, polished and results-driven.",
     "photoAlt": "Photo of Neamane Gelaas",
     "cvEnglish": "Download CV in English",
     "cvSpanish": "Download CV in Spanish"
   },
   "projects": {
-    "title": "💼 Projects",
+    "title": "Projects",
     "view": "View on GitHub",
     "techLabel": "Technologies used",
     "techNames": {
@@ -68,7 +68,7 @@
     }
   },
   "about": {
-    "title": "👨‍💻 About Me",
+    "title": "About Me",
     "description": "I'm a web developer trained in the Dutch MBO-level 4 program 'Application and Media Development' (Applicatie- en mediaontwikkelaar), with a hands-on and result-driven mindset. I'm passionate about technology, enjoy learning new tools, and I'm always looking to improve my skills. I'm currently building my professional portfolio and preparing for new opportunities in the Dutch IT sector.",
     "card1Title": "Problem Solver",
     "card1Text": "I enjoy finding practical solutions to technical challenges.",
@@ -78,7 +78,7 @@
     "card3Text": "I commit to each project to deliver the best possible outcome."
   },
   "certifications": {
-    "title": "📜 Certifications",
+    "title": "Certifications",
     "items": [
       {
         "date": "Jan 2024",
@@ -132,6 +132,8 @@
     "description": "I build modern web products: performance, clean design, and great DX.",
     "cta": "Let's talk",
     "ctaAria": "Open WhatsApp conversation",
+    "linkedinAria": "Open LinkedIn profile",
+    "githubAria": "Open GitHub profile",
     "backToTop": "Top",
     "backToTopAria": "Back to top",
     "navTitle": "Navigation",
@@ -145,6 +147,6 @@
     "location": "Rotterdam / Remote",
     "socialTitle": "Social",
     "rights": "All rights reserved",
-    "madeWith": "Made with"
+    "madeWith": "Designed and built with React"
   }
 }
